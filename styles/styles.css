@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+background-color: #FFF9f4;
+margin: 0px;
+color: #FFF9f4;
+font-family: 'Jost';
+}
+
+a {
+    color: #FFF9f4;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar-container {
+    background-color: #006EBE;
+    align-items: right;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #57b2f37c;
+    height: 53px;
+}
+
+.navbar-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-title {
+    font-size: 35px;
+    font-weight: 525;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-right: 578px;
+    font-family: 'Playfair Display';
+    text-align: left;
+}
+
+.selected-page{
+    background-color: #57b2f3;
+}
+
+.main-section {
+    text-align: center;
+    background-image: url("../resources/homepage-img-1.png");
+    margin-top: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-size: contain;
+    width: 94%;
+    height: 590px;
+    
+}
+
+.heading {
+    font-family: 'Encode Sans Condensed';
+    font-weight: 550;
+    font-size: 70px;
+    color: #001a2d;
+}
+
+.main-heading {
+    font-size: 80px;
+    padding-top: 190px;
+    padding-bottom: 40px;
+    color: #FFF9f4;
+}
+
+.main-button {
+    color: #001a2d;
+    font-size: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: #006EBE;
+    background-color: #FFF9f4;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.quotes-heading {
+    margin-top: 65px;
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+
+.quotes-container {
+    align-items: flex-start;
+}
+
+.quotes-image {
+    height: 650px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+
+.quotes-text-container {
+    flex-direction: column;
+    margin-left: 1.75%;
+}
+
+.quotes-box {
+    background-color: #006EBE;
+    padding: 35px;
+    margin-top: 20px;
+    width: 575px;
+    height: 90px;
+    font-size: 28px;
+}
+
+.quotes-button {
+    width: 150px;
+    height: 50px;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.button {
+transition: background-color, 0.3s;
+}
+
+.button:hover {
+background-color: #57b2f3;
+}
+
+footer {
+    background-color: #006EBE;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+.icons-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon {
+    width: 60px;
+    margin-left: 8px;
+    margin-right: 8px;
+    opacity: 1;
+    transition: opacity, 0.2s;
+}
+
+.icon:hover {
+    opacity: 0.8
+}
+
+.footer-pages-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer-page {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 20px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    transition: text-decoration;
+}
+
+.footer-page:hover {
+    text-decoration: underline;
+}
+
+.page-heading {
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+.about-text {
+    color: #001a2d;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.about-image {
+    height: 600px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+
+.page-container {
+    flex-direction: row;
+    margin-left: 3%;
+    margin-bottom: 4%;
+}
+
+.page-image {
+    width: 50%;
+}
+
+.page-text-container {
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.page-text-heading {
+    font-size: 40px;
+}
+
+.text {
+    color: #001a2d;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.projects-button {
+    width: 125px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #006EBE;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
